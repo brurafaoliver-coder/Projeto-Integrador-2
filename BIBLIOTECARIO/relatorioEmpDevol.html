@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Empréstimos e Devoluções</title>
+    <link href="bibliotecario.css" rel="stylesheet">
+</head>
+<header>
+    <h1>Relatório de Empréstimos e Devoluções</h1>
+</header>
+<body>
+    <div class="container">
+        <h2>Livros Emprestados</h2>
+        <table id="emprestimos-table">
+            <thead>
+                <tr>
+                    <th>RA do Aluno</th>
+                    <th>ID do Livro</th>
+                    <th>Título do Livro</th>
+                    <th>Data de Retirada</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dados dos empréstimos serão inseridos aqui -->
+            </tbody>
+        </table>
+
+        <h2>Livros Devolvidos</h2>
+        <table id="devolucoes-table">
+            <thead>
+                <tr>
+                    <th>RA do Aluno</th>
+                    <th>ID do Livro</th>
+                    <th>Título do Livro</th>
+                    <th>Data de Devolução</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dados das devoluções serão inseridos aqui -->
+            </tbody>
+        </table>
+        <br>
+        <button onclick="location.href='index.html'">Voltar</button>
+    </div>
+    <script type="module" src="relatorio.js"></script>
+</body>
+</html>
